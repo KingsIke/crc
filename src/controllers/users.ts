@@ -53,7 +53,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ Error :"Contact provide" })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
@@ -100,7 +103,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ "Error": error })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
@@ -146,7 +152,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ "Error": error })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
@@ -192,7 +201,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ "Error": error })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
@@ -238,7 +250,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ "Error": error })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
@@ -283,7 +298,10 @@ const data = JSON.stringify({
     return res.status(200).json(resp)
   } catch (error) {
     console.log(error)
-    return res.status(500).json({ "Error": error })
+    return res.status(500).json({ 
+      message: "network errror",
+    
+     })
   }
 
 }
